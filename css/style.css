@@ -210,8 +210,50 @@ a {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  margin-top: 25px;
 }
 
+.hebergements-card {
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  max-height: 207.25px;
+}
+.hebergements-card img {
+  max-height: 124px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.hebergements-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+.hebergements-card p {
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+.hebergements-card .card-rating {
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 8px;
+}
+.hebergements-cards .card-title {
+  margin: 0;
+  margin-top: 4px;
+  padding-left: 10px;
+}
+.hebergements-title {
+  margin: 0;
+  padding-bottom: 30px;
+}
 /****** Populaires ***********/
 .populaires {
   width: 32%;
@@ -255,6 +297,10 @@ a {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+.afficher-plus {
+  margin: 0;
+  padding-top: 30px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
