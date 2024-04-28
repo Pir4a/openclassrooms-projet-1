@@ -256,7 +256,8 @@ a {
 }
 /****** Populaires ***********/
 .populaires {
-  width: 32%;
+  width: 31%;
+  margin-top: 23px;
 }
 
 .populaires-title {
@@ -271,14 +272,14 @@ a {
 }
 
 .populaires-cards img {
-  width: 33%;
-  height: 136px;
+  width: 37%;
+  height: 134px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-  width: 67%;
+  width: 63%;
   padding-left: 15px;
   display: flex;
   flex-direction: column;
@@ -287,7 +288,7 @@ a {
 }
 
 .populaires-cards .card-title {
-  margin-top: 10px;
+  margin-top: 11px;
   margin-bottom: 4px;
 }
 
@@ -296,11 +297,7 @@ a {
 }
 
 .populaires-cards .card-rating {
-  margin-bottom: 5px;
-}
-.afficher-plus {
-  margin: 0;
-  padding-top: 30px;
+  margin-bottom: 7px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
