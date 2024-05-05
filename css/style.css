@@ -327,6 +327,21 @@ a {
 .activite-card h3 {
   padding-left: 19px;
 }
+footer {
+  display: flex;
+
+  background-color: #f2f2f2;
+  margin: auto;
+  margin-top: 65px;
+  padding: 20px;
+}
+.footer-section {
+  width: 33%;
+  padding-top: 0;
+}
+.footer-section h3 {
+  margin-top: 0;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -339,7 +354,16 @@ a {
   .hebergements {
     width: 100%;
   }
-
+  .activite-card {
+    width: 193.5px;
+    height: auto;
+    object-fit: cover;
+  }
+  .activite-card img {
+    width: 193.5px;
+    height: 200px;
+    object-fit: cover;
+  }
   .populaires {
     width: 100%;
     margin-top: 50px;
